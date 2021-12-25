@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap);
+
+html, body{
+  box-sizing: border-box;
+  display: flex;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.site-header{
+  padding: 10px 8px;
+  background-color: #ffffff;
+  position: relative
+}
+
+.navbar{
+  padding: 11px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.logo img{
+  padding: 14px 16px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.navbar a{
+  font-family: Karla,sans-serif;
+  float: left;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+
+.navbar a:hover{
+  color: #b4b4b4;
+}
+
+#active{
+  font-weight: bold;
+  color: rgb(39, 171, 211);
+}
+
+.login-account a{
+  float: right;
+  width: 70px;
+  margin-right: 15px;
+  margin-top: 5px;
+  padding: 11px 15px;
+  background-color: #dddddd;
+  color: rgb(27, 27, 27);
+  font-size: 15px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.login-account a:hover{
+  background-color: #bdbdbd;
+  color: rgb(27, 27, 27);
+}
+
+.box-text{
+  padding: 90px 18px;
+}
+
+.title{
+  font-family: Karla,sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(27, 27, 27);
+}
+
+.about{
+  padding: 9px 3px;
+  color: rgb(82, 82, 82);
+  font-family: Karla,sans-serif;
+  font-size: 18px;
+}
+
+.search{
+  padding-left: 3px;
+}
+
+.search #search{
+  position: relative;
+  font-family: Karla,sans-serif;
+  padding-left: 15px;
+  width: 540px;
+  outline: none;
+  font-size: 20px;
+  color: #6d6d6d;
+  background-color: #d1d1d1;
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+}
+
+.search #btn-down{
+  cursor: pointer;
+  width:auto;
+  font-family: Karla,sans-serif;
+  text-align: center;
+  padding: 15px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 7px;
+  background-color: rgb(39, 171, 211);
+  color: #fff;
+  height: 52px;
+}
+
+.search #btn-down:hover{
+  background-color: rgb(111, 195, 221);
+}
+
+.down-mp3{
+  font-family: Karla,sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-left: 2px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #cfcfcf;
+  height: 330px;
+  border-radius: 7px;
+}
+
+@media (max-width: 600px) {
+
+  .site-header{
+    padding: 10px 8px;
+  }
+
+  .search #search{
+    width: 360px;
+  }
+
+  .down-mp3{
+    height: 400px;
+  }
+}
